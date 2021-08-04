@@ -1,0 +1,49 @@
+.main_bg {
+  background-color: #efeeee;
+}
+
+.shape_bg {
+  background-color: #efeeee;
+}
+
+.dark_shadow {
+  box-shadow: 6px 6px 16px 0px #d1cdc7;
+}
+
+.light_shadow {
+  box-shadow: -6px -6px 16px 0px #ffffff;
+}
+
+.newmoph_shadow {
+  /* box-shadow: 6px 6px 16px 0px #d1cdc7, -6px -6px 16px 0px #ffffff; */
+  /* border: 1px solid #fff; */
+  /* box-shadow: 6px 6px 16px 0px hsla(36, 10%, 80%, 0.5), */
+  /* -6px -6px 16px 0px hsla(0, 0%, 100%, 0.5); */
+  /* border: 1px solid hsla(0, 0%, 100%, 0.2); */
+  box-shadow: -6px -6px 26px 0 rgba(255, 255, 255, 0.83),
+    6px 6px 16px 0 rgba(217, 210, 200, 0.51);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.newmoph_shadow_o {
+  /* box-shadow: 6px 6px 16px 0px #d1cdc7, -6px -6px 16px 0px #ffffff; */
+  /* border: 1px solid #fff; */
+  box-shadow: 6px 6px 16px 0px hsla(36, 10%, 80%, 0.51),
+    -6px -6px 26px 0px hsla(0, 0%, 100%, 0.83);
+  border: 1px solid hsla(0, 0%, 100%, 0.2);
+}
+
+.newmoph_shadow_o_inset {
+  /* box-shadow: 6px 6px 16px 0px #d1cdc7, -6px -6px 16px 0px #ffffff; */
+  /* border: 1px solid #fff; */
+  box-shadow: 2px 2px 3px 0px hsla(36, 10%, 80%, 0.51) inset,
+    -2px -2px 4px 0px hsla(0, 0%, 100%, 0.83) inset;
+  border: 1px solid hsla(0, 0%, 100%, 0.2);
+}
+.newmoph_shadow_o1 {
+  /* box-shadow: 6px 6px 16px 0px #d1cdc7, -6px -6px 16px 0px #ffffff; */
+  /* border: 1px solid #fff; */
+  box-shadow: 6px 6px 16px 0px hsla(36, 10%, 80%, 0.5),
+    -6px -6px 16px 0px hsla(0, 0%, 100%, 0.5);
+  border: 1px solid hsla(0, 0%, 100%, 0.2);
+}

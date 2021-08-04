@@ -1,5 +1,5 @@
 {
-  "name": "fbauth",
+  "name": "nextjs_firebase_googleMap_notionApi_try1",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,8 +8,19 @@
     "start": "next start"
   },
   "dependencies": {
+    "@googlemaps/js-api-loader": "^1.12.1",
+    "@googlemaps/react-wrapper": "^1.1.0",
+    "@notionhq/client": "^0.2.1",
+    "firebase": "^8.6.5",
     "next": "10.2.3",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-final-form": "^6.5.3"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.11",
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.3",
+    "tailwindcss": "^2.1.4"
   }
 }
